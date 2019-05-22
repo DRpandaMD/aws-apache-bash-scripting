@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install httpd php php-mysql -yum
+yum install httpd php php-mysql -y
 cd /var/www/html
 wget https://wordpress.org/wordpress-5.1.1.tar.gz
 tar -xzf wordpress-5.1.1.1.tar.gz
